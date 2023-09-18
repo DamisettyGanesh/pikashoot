@@ -45,10 +45,6 @@ The backend provides the following API endpoints:
 ### User Authentication Endpoints:
 - **POST /api/auth/register**: Allows users to register with a username, email, and password.
 - **POST /api/auth/login**: Enables users to log in with their credentials.
-- **POST /api/auth/logout**: Logs out the currently authenticated user.
-- **POST /api/auth/reset-password**: Allows users to request a password reset email.
-- **POST /api/auth/reset-password/:token**: Resets the user's password after they click a link in the reset email.
-- **GET /api/auth/user**: Retrieves information about the currently authenticated user.
 
 ### Blog Post Endpoints:
 - **GET /api/posts**: Retrieves a list of all blog posts.
