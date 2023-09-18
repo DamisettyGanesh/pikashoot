@@ -8,4 +8,5 @@ import java.util.List;
 
 @Repository
 public interface BlogPostRepository extends JpaRepository<BlogPost, Integer> {
+    BlogPost findByPostId(int postId);
 }
