@@ -84,11 +84,11 @@ To set up and run the backend, follow these steps:
 1. Clone this repository to your local machine:
 
    ```shell
-   git clone https://github.com/yourusername/your-cms-blog-backend.git
+   git clone https://github.com/GaneshDd/pikashoot.git
 
 2. Navigate to the project directory
     ```shell
-   cd your-cms-blog-backend
+   cd pikashoot
 
 3. Configure your database connection in 
     ```shell
